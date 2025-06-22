@@ -26,13 +26,6 @@ public class JediMeditation {
                 hasYoda = true;
             }
         }
-        for(String jedi : jediList){
-            if (jedi.startsWith("y")) {
-                jediList.remove(jedi);
-                hasYoda = true;
-            }
-        }
-
         if(hasYoda){
             orderWithYoda(jediList);
         }
