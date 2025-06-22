@@ -41,10 +41,18 @@ public class JediMeditation {
         List<String> toshkoSlav = new ArrayList<>();
 
         for (String jedi : jediList) {
-            if (jedi.startsWith("m")) masters.add(jedi);
-            else if (jedi.startsWith("k")) knights.add(jedi);
-            else if (jedi.startsWith("p")) padawans.add(jedi);
-            else if (jedi.startsWith("t") || jedi.startsWith("s")) toshkoSlav.add(jedi);
+            if (jedi.startsWith("m")) {
+                masters.add(jedi);
+            }
+            else if (jedi.startsWith("k")) {
+                knights.add(jedi);
+            }
+            else if (jedi.startsWith("p")) {
+                padawans.add(jedi);
+            }
+            else if (jedi.startsWith("t") || jedi.startsWith("s")) {
+                toshkoSlav.add(jedi);
+            }
         }
 
         List<String> orderedListOfJedi = new ArrayList<>();
@@ -62,10 +70,18 @@ public class JediMeditation {
         List<String> toshkoSlav = new ArrayList<>();
 
         for (String jedi : jediList) {
-            if (jedi.startsWith("m")) masters.add(jedi);
-            else if (jedi.startsWith("k")) knights.add(jedi);
-            else if (jedi.startsWith("p")) padawans.add(jedi);
-            else if (jedi.startsWith("t") || jedi.startsWith("s")) toshkoSlav.add(jedi);
+            if (jedi.startsWith("m")) {
+                masters.add(jedi);
+            }
+            else if (jedi.startsWith("k")) {
+                knights.add(jedi);
+            }
+            else if (jedi.startsWith("p")) {
+                padawans.add(jedi);
+            }
+            else if (jedi.startsWith("t") || jedi.startsWith("s")) {
+                toshkoSlav.add(jedi);
+            }
         }
 
         List<String> orderedListOfJedi = new ArrayList<>();
