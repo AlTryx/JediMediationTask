@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/JediMediationTask.iml" filepath="$PROJECT_DIR$/.idea/JediMediationTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JediMeditationTask.iml" filepath="$PROJECT_DIR$/.idea/JediMeditationTask.iml" />
     </modules>
   </component>
 </project>
